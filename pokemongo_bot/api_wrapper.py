@@ -29,13 +29,13 @@ class ApiWrapper(PGoApi, object):
         self.gen_device_id()
         device_info = {
             "device_id": ApiWrapper.DEVICE_ID,
-            "device_brand": 'Apple',
-            "device_model": 'iPhone',
-            "device_model_boot": 'iPhone8,2',
-            "hardware_manufacturer": 'Apple',
-            "hardware_model": 'N66AP',
-            "firmware_brand": 'iPhone OS',
-            "firmware_type": '9.3.3'
+            "device_brand": 'google',
+            "device_model": 'Nexus 5X',
+            "device_model_boot": 'qcom',
+            "hardware_manufacturer": 'LGE',
+            "hardware_model": 'Nexus 5X',
+            "firmware_brand": 'bullhead',
+            "firmware_type": 'user'
         }
 
         PGoApi.__init__(self, device_info=device_info)
